@@ -1,0 +1,105 @@
+{
+  "checked_at": "2026-09-29T04:19:12.400823+00:00",
+  "url": "https://day12-agent-production-8a11.up.railway.app",
+  "mode": "cloud",
+  "authenticated_checks": true,
+  "passed": true,
+  "checks": [
+    {
+      "check": "health",
+      "expected": 200,
+      "actual": 200,
+      "passed": true
+    },
+    {
+      "check": "ready",
+      "expected": 200,
+      "actual": 200,
+      "passed": true
+    },
+    {
+      "check": "missing_key",
+      "expected": 401,
+      "actual": 401,
+      "passed": true
+    },
+    {
+      "check": "authenticated_ask",
+      "expected": 200,
+      "actual": 200,
+      "passed": true
+    },
+    {
+      "check": "history_persisted",
+      "expected": 200,
+      "actual": 200,
+      "passed": true
+    },
+    {
+      "check": "rate_allowed_1",
+      "expected": 200,
+      "actual": 200,
+      "passed": true
+    },
+    {
+      "check": "rate_allowed_2",
+      "expected": 200,
+      "actual": 200,
+      "passed": true
+    },
+    {
+      "check": "rate_allowed_3",
+      "expected": 200,
+      "actual": 200,
+      "passed": true
+    },
+    {
+      "check": "rate_allowed_4",
+      "expected": 200,
+      "actual": 200,
+      "passed": true
+    },
+    {
+      "check": "rate_allowed_5",
+      "expected": 200,
+      "actual": 200,
+      "passed": true
+    },
+    {
+      "check": "rate_allowed_6",
+      "expected": 200,
+      "actual": 200,
+      "passed": true
+    },
+    {
+      "check": "rate_allowed_7",
+      "expected": 200,
+      "actual": 200,
+      "passed": true
+    },
+    {
+      "check": "rate_allowed_8",
+      "expected": 200,
+      "actual": 200,
+      "passed": true
+    },
+    {
+      "check": "rate_allowed_9",
+      "expected": 200,
+      "actual": 200,
+      "passed": true
+    },
+    {
+      "check": "rate_allowed_10",
+      "expected": 200,
+      "actual": 200,
+      "passed": true
+    },
+    {
+      "check": "rate_blocked",
+      "expected": 429,
+      "actual": 429,
+      "passed": true
+    }
+  ]
+}
