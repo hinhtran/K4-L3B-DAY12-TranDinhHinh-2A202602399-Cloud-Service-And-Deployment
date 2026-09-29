@@ -1,5 +1,10 @@
 # Thông Tin Deploy — Checkpoint 5
 
+> **Trạng thái hiện tại: chưa deploy cloud.** Cấu hình Railway và script kiểm tra
+> đã được chuẩn bị. Làm theo [CP5_RAILWAY.md](CP5_RAILWAY.md), sau đó thay phần
+> trạng thái này bằng kết quả thực tế. Các placeholder dưới đây được giữ lại
+> cho tới khi có URL và bằng chứng thật.
+
 > Điền file này sau khi deploy xong. `pytest tests/test_cp5.py` đọc file này
 > để tìm địa chỉ service của bạn và gọi thử.
 >
@@ -28,12 +33,12 @@ Ghi tên biến và **nguồn giá trị**, không ghi giá trị:
 
 | Biến | Đã set | Ghi chú |
 |------|--------|---------|
-| `PORT` | ✅ | platform tự gán |
-| `AGENT_API_KEY` | ✅ | đặt trong dashboard, không nằm trong repo |
-| `REDIS_URL` | ✅ | (điền: Redis add-on của platform / Upstash / ...) |
-| `RATE_LIMIT_PER_MINUTE` | ✅ | 10 |
-| `MONTHLY_BUDGET_USD` | ✅ | 10.0 |
-| `LOG_LEVEL` | ✅ | INFO |
+| `PORT` | Chưa xác nhận | platform cung cấp; Dockerfile có mặc định 8000 |
+| `AGENT_API_KEY` | Chưa xác nhận | nhập trong dashboard, không nằm trong repo |
+| `REDIS_URL` | Chưa xác nhận | (điền: Redis add-on của platform / Upstash / ...) |
+| `RATE_LIMIT_PER_MINUTE` | Chưa xác nhận | cấu hình dự kiến: 10 |
+| `MONTHLY_BUDGET_USD` | Chưa xác nhận | cấu hình dự kiến: 10.0 |
+| `LOG_LEVEL` | Chưa xác nhận | cấu hình dự kiến: INFO |
 
 ## Lệnh Kiểm Tra
 
